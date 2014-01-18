@@ -131,6 +131,12 @@
     <!-- Stylus Icon -->
     <string name="stylus_icon_enabled_title">Cursor del stylus</string>
     <string name="stylus_icon_enabled_summary">Mostrar un cursor mientras se usa el stylus</string>
+    
+    <!--User preferences settings-->
+    <string name="personalization">Personalización</string>
+    <string name="reset_user_preferences_title">Restablecer configuración</string>
+    <string name="reset_user_preferences_summary">Restaura las preferencias de interfaz de usuario a los valores predeterminados</string>
+    <string name="reset_user_preferences_dialog">¿Seguro que deseas restablecer todas tus preferencias?</string>
 
     <!-- Stylus Gestures -->
     <string name="gestures_settings_title">Gestos con Stylus</string>
