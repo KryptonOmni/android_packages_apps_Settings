@@ -58,6 +58,18 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
+	<!-- APPEARANCE -->
+    <header android:id="@+id/appearance_section"
+        android:title="@string/header_category_appearance" />
+        
+    <!-- Theme chooser -->
+    <header
+        android:id="@+id/theme_settings"
+        android:title="@string/themes_settings_title"
+        android:breadCrumbTitle="@string/themes_settings_title"
+        android:fragment="com.android.settings.ThemeSettings"
+        android:icon="@drawable/prd_ic_themepacks" />
+
     <!-- INTERFACE -->
     <header android:id="@+id/interface_section"
         android:title="@string/header_category_interface" />
@@ -68,6 +80,12 @@
         android:breadCrumbTitle="@string/interface_bars_title"
         android:fragment="org.omnirom.omnigears.interfacesettings.BarsSettings"
         android:icon="@drawable/ic_bars" />
+        
+    <header
+		android:id="@+id/lockscreen_link"
+		android:title="@string/lockscreen_settings_title"
+		android:fragment="org.omnirom.omnigears.interfacesettings.LockscreenSettings" 
+		android:icon="@drawable/ic_settings_lockscreen" />
 
     <header
         android:id="@+id/interface_menus"
@@ -96,14 +114,6 @@
         android:breadCrumbTitle="@string/interface_more_title"
         android:fragment="org.omnirom.omnigears.interfacesettings.MoreInterfaceSettings"
         android:icon="@drawable/empty_icon" />
-
-    <!-- Theme chooser -->
-    <header
-        android:id="@+id/theme_settings"
-        android:title="@string/themes_settings_title"
-        android:breadCrumbTitle="@string/themes_settings_title"
-        android:fragment="com.android.settings.ThemeSettings"
-        android:icon="@drawable/prd_ic_themepacks" />
 
     <!-- DEVICE -->
     <header android:id="@+id/device_section"

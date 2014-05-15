@@ -20,7 +20,8 @@
     <string name="mod_version_default">Desconocida</string>
 
     <!-- Main list strings -->
-    <string name="header_category_interface">Interfaz</string>
+    <string name="header_category_appearance">Apariencia</string>
+    <string name="header_category_interface">Extras</string>
     <string name="performance_settings">Rendimiento</string>
     <string name="notification_light_settings">LED de notificaciones</string>
     <string name="battery_light_settings">LED de la batería</string>
