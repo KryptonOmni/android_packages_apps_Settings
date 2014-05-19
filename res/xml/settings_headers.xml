@@ -287,12 +287,16 @@
             android:targetClass="eu.chainfire.supersu.MainActivity" />
     </header>
 
-    <!-- Performance Controls -->
+    <!-- Kernel Tweaker -->
     <header
-        android:id="@+id/performance_controls"
-        android:fragment="com.brewcrewfoo.performance.activities.MainActivity"
-        android:icon="@drawable/ic_settings_performance"
-        android:title="@string/performance_settings" />
+		android:id="@+id/performance_controls"
+		android:icon="@drawable/ic_settings_performance"
+		android:title="@string/performance_settings" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.dsht.kerneltweaker.MainActivity"
+            android:targetPackage="com.dsht.kerneltweaker" />
+    </header>
 
     <!-- About Device -->
     <header
